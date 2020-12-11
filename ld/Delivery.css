@@ -1,0 +1,33 @@
+/* Navbar */
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 32;
+    color: white;
+}
+body {
+    background-color: #4b3619 ;
+}
+form h3 {
+    font-family: 'Langar', cursive;
+}
+.form label, td, h3, h2, h5 {
+    color: white;
+}
+/* Dekstop version */
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    
+    }
+    .nav-link:hover::after {
+        content: " ";
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }  
+    
+}

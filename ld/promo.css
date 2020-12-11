@@ -1,0 +1,41 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+  font-family: 'Lobster',cursive;
+  font-size: 32px;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        
+    }
+    .navbar-brand, .nav-link {
+        color:black !important;
+        text-shadow: 1px 1px 1px rgb(239, 239, 243);
+
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #039be5;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .item-promo {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 90vh;
+        align-items: center;
+    }   
+}
